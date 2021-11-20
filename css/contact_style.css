@@ -1,0 +1,206 @@
+
+    /* 
+        forma
+    */
+
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding-bottom: 40px;
+}
+.left_section{
+    width: 600px;
+    margin-right: 90px;
+}
+
+.site-form{
+    box-shadow: 0 0 2px 2px black;
+    border-radius: 3px;
+}
+
+.form_title{
+    text-align: left;
+}
+
+.form_wrapper{
+    text-align: left;
+}
+
+.form_wrapper + .form_wrapper{  
+    margin-top: 20px;   
+}
+
+.input{
+    width: 50%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 2px #285193;
+    opacity: 30%;
+    color: #888888;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+.input::placeholder{
+    color: #888888;
+    font-family: 'Rubik', 'Arial',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.word_text{
+    text-align: left;
+}
+
+.text_write{
+    width: 600px;
+    padding: 15px;
+}
+
+.input_item{
+    width: 221px;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 2px #285193;
+    color: #888888;
+    opacity: 30%;
+}
+
+.form_button{
+    display: block;
+    margin-top: 20px;
+    width: 221px;
+    padding: 14px 61px;
+    Font-family: 'Rubik','Arial',sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height:21.33px;
+    color: #FFFFFF;
+    background-color: #295093;
+    border-radius: 5px;
+}
+
+        /* 
+            right section
+        */
+
+.right_site_info{
+    width: 510px;
+    border: 2px solid #BCC3CD;
+    background-color: #ffffff;
+    box-shadow: -10px 10px 2px 3px #BCC3CD;
+    margin-top: 60px;
+}
+
+.site_adress_title{
+    text-align: right;
+    padding-right: 20px;
+    color: #295091;
+    font-family: 'Rubik','Arial',sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.site_adress_all{
+    text-align: center;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.adress_type_left{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 22px;
+    padding-left: 15px;
+}
+
+.site_adress{
+    text-align: left;
+    margin-bottom: 32px;
+    font-family: 'Rubik', 'Arial',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #888888;
+}
+  
+
+.adress_type_right_list{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+
+.site_adress_right{
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.adress-email{
+    margin-left:0;
+}
+
+.email_link{
+    padding-left: 0px;
+    text-decoration: none;
+    color:#888888
+}
+
+.social_link{
+    text-decoration: none;
+}
+
+.adress_social{
+    list-style-type: none;
+}
+
+.twitter{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.facebook_logo{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.adress_telegramm{
+    background-color: #295091;
+    margin-left: 110px;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-image: url(/image/cib_telegram.svg);
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}
+
+.telegram_link{
+    padding-right: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.internet_link{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+  
